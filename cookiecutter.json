@@ -1,0 +1,7 @@
+{
+    "package_name": "Deepfield Python Package",
+    "package_slug": "{{ cookiecutter.package_name | slugify }}",
+    "package_module": "{{ cookiecutter.package_slug | replace('-', '_') }}",
+    "package_version": "0.0.1",
+    "package_description": "A Python package template for Deepfield"
+}
